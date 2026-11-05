@@ -5,9 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=5.1.0",
     "ipykernel>=7.4.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.7.4",
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
     "torch>=2.14.1",
     "torcheval>=0.0.7",
     "torchvision>=0.24.1",
